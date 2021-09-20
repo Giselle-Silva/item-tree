@@ -1,4 +1,4 @@
-# Árvore de Itens (ReactJS)
+# Árvore de Itens
 
 Projeto criado com [Create React App](https://github.com/facebook/create-react-app).
 
