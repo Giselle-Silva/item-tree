@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1.logo {
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  padding: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.listGroup li {
+  margin-bottom: 10px;
+}
+
+.list-secondary li:first-child {
+  margin-top: 10px;
+}
+
+.listGroup li .item-checkbox:hover,
+.list-secondary li .item-checkbox:hover,
+.listGroup li .form-check-label:hover,
+.list-secondary li .form-check-label:hover
+ {
+  cursor: pointer;
+  background: #e2dfda;  
+}
+
+.listGroup li .checkbox-main {
+  padding: 5px 20px;
+}
+
+.list-secondary li .form-check {
+  padding: 5px 40px;
+}
+
+.checkbox-main .form-group {
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  max-width: 560px;
+}
+
+.checkbox-main {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.close-list {
+  display: none;
+}
+
+.open-list {
+  display: block;
+}
+
+.close-arrow {
+  transform: rotate(0);
+}
+
+.open-arrow {
+  transform: rotate(180deg);
+}
+
+.list-secondary {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
