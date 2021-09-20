@@ -9,14 +9,15 @@ Este componente é uma árvore de itens, na qual cada item pode ter vários iten
 * Em cada item, o usuário pode marcar o checkbox dessa linha e mostrar ou esconder os itens que esteja dentro dela.
 * Em cada item que tenha um elemento pai, quando o usuário marcar ou desmarcar o checkbox, o estado deve ser repassado a todos os seus descendentes.
 
+## Demo Netlify
+https://romantic-joliot-db9daf.netlify.app/
 
 ## Dependências
 
 - Axios;
 - React Bootstrap;
 
-
-## Scripts Disponíveis
+## Como rodar a aplicação
 
 No diretório do projeto, execute:
 
